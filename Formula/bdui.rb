@@ -1,15 +1,15 @@
 class Bdui < Formula
   desc "Real-time Text User Interface for bd (beads) issue tracker"
   homepage "https://github.com/assimelha/bdui"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/assimelha/bdui/releases/download/v0.1.1/bdui-macos-arm64"
-    sha256 "1c238055b246f739f2b4d1a9c25463192afc96f3ce281ff0e8cff1c3b3dc8310"
+    url "https://github.com/assimelha/bdui/releases/download/v0.2.0/bdui-macos-arm64"
+    sha256 "e7ca1cdefab6cbc8e6947c418d5a022a484d043ff6b7f3128d46305dcb480ce2"
   else
-    url "https://github.com/assimelha/bdui/releases/download/v0.1.1/bdui-macos-x64"
-    sha256 "8a54c53876b5d0e8d3f2077c7adcaecc4e408ece34f3c2394e38c2e9eb59fc67"
+    url "https://github.com/assimelha/bdui/releases/download/v0.2.0/bdui-macos-x64"
+    sha256 "c407a26c335240d3d09edaea1a3419e09d660bac85afbde027b60ee3bbbb1d78"
   end
 
   def install
