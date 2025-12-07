@@ -1,15 +1,15 @@
 class Surf < Formula
   desc "Web browser for LLMs - converts pages to markdown with JS execution"
   homepage "https://github.com/assimelha/surf"
-  version "1.1.0"
+  version "1.2.0"
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/assimelha/surf/releases/download/v1.1.0/surf-darwin-arm64"
-    sha256 "5550945453261e12d4263849b7540e7e106ca6c495fb83311ed9a9ea327798d5"
+    url "https://github.com/assimelha/surf/releases/download/v1.2.0/surf-darwin-arm64"
+    sha256 "6733f2116f2be76a0396bca7f1b14b45fb5c4b5a233b3bfa2193cd74e55df2e2"
   else
-    url "https://github.com/assimelha/surf/releases/download/v1.1.0/surf-darwin-amd64"
-    sha256 "974291408061d7d1993bade07d371badc119648bb036fe0379d45c60f062d4cc"
+    url "https://github.com/assimelha/surf/releases/download/v1.2.0/surf-darwin-amd64"
+    sha256 "b7255e53f862cb9603a828a75b9ba455d88af5aafaf6ac22dc28f6c329b3d95e"
   end
 
   def install
